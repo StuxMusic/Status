@@ -1,0 +1,69 @@
+# Stux.Music Status: https://status.stux.music
+# Checked every 5 minutes by .github/workflows/status.yml, using GitHup:
+# https://github.com/StuxGroup/GitHup
+site:
+  name: Stux.Music Status
+  description: Live status of Stux.Music's music sites and services, checked every 5 minutes.
+  logo: https://global.media.stux.music/logo.png
+  favicon: https://global.media.stux.music/icon.png
+  accent: "#4752FF"
+  url: https://status.stux.music/
+  footer_links:
+    - label: Stux.Music Artists
+      url: https://artists.stux.music/
+    - label: Report a problem
+      url: https://github.com/StuxMusic/Status/issues/new
+
+legal:
+  operator: Stux.Music
+  company: "Stux.Music is operated by Stux Group Ltd, a company registered in England and Wales (company no. 13160574), registered office 82a James Carter Road, Mildenhall, England, IP28 7DE."
+  contact: legal@stux.music
+  host: GitHub Pages
+  effective: 1 October 2026
+
+defaults:
+  timeout: 15
+  retries: 2
+  max_response_time: 3000
+
+# Monitors are grouped into sections on the page, each with a combined status.
+# Slugs come from the names, so moving a monitor between groups keeps its history.
+groups:
+  - name: Stux.Music
+    description: The Stux.Music website and artist directory.
+    monitors:
+      - name: Stux.Music
+        url: https://stux.music/
+      - name: Artists
+        url: https://artists.stux.music/
+        description: The directory of Stux.Music artists
+
+  - name: Artists
+    description: Sites for Stux.Music's artists.
+    monitors:
+      - name: Stux Sharp
+        url: https://stuxsharp.com/
+        description: The official website of Stux Sharp
+      - name: Sharp.Stux.Music
+        url: https://sharp.stux.music/
+        description: The smart-link portal for Stux Sharp releases
+
+  - name: Templates
+    description: The holding pages shown while a Stux.Music site or artist page isn't ready.
+    monitors:
+      - name: Artistpage
+        url: https://artistpage.stux.music/
+      - name: Soonpage
+        url: https://soonpage.stux.music/
+      - name: Maintenancepage
+        url: https://maintenancepage.stux.music/
+
+  - name: Shared
+    description: The media everything Stux.Music runs relies on.
+    monitors:
+      - name: Stux.Music Media CDN
+        url: https://global.media.stux.music/icon.png
+        description: Shared logos and images used across every Stux.Music site
+
+incidents:
+  labels: [status]
