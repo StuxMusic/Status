@@ -25,7 +25,7 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 | Stux.Music | [Stux.Music](https://stux.music/) | Up | 100.00% | 100.00% | 100.00% | 840 ms |
 | Stux.Music | [Artists](https://artists.stux.music/) | Up | 25.00% | 25.00% | 25.00% | 72 ms |
 | Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 100.00% | 100.00% | 100.00% | 1157 ms |
-| Artists | [Sharp.Stux.Music](https://sharp.stux.music/) | Degraded | 100.00% | 100.00% | 100.00% | 1745 ms |
+| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Degraded | 100.00% | 100.00% | 100.00% | 1745 ms |
 | Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 158 ms |
 | Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 156 ms |
 | Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 208 ms |
