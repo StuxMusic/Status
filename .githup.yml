@@ -44,8 +44,9 @@ groups:
       - name: Stux Sharp
         url: https://stuxsharp.com/
         description: The official website of Stux Sharp
+      # A release page, not the index: sharp.stux.music/ can be set to redirect to stuxsharp.com.
       - name: Sharp.Stux.Music
-        url: https://sharp.stux.music/
+        url: https://sharp.stux.music/human-enlightenment
         description: The smart-link portal for Stux Sharp releases
 
   - name: Templates

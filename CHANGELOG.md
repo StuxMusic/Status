@@ -3,6 +3,12 @@
 All notable changes to Stux.Music's status page (status.stux.music) are documented here. It
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.0.1
+
+### Fixed
+
+- Sharp.Stux.Music is checked on a release page (`/human-enlightenment`) instead of its index, which sometimes redirects to stuxsharp.com (history is kept)
+
 ## v1.0.0
 
 ### Added
