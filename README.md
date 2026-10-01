@@ -18,7 +18,18 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 <!-- githup:start -->
 <!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
 
-*No data yet. The first check fills this in.*
+**No data yet** · [Live status page](https://status.stux.music/)
+
+| Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
+| ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
+| Stux.Music | [Stux.Music](https://stux.music/) | No data | n/a | n/a | n/a | n/a |
+| Stux.Music | [Artists](https://artists.stux.music/) | No data | n/a | n/a | n/a | n/a |
+| Artists | [Stux Sharp](https://stuxsharp.com/) | No data | n/a | n/a | n/a | n/a |
+| Artists | [Sharp.Stux.Music](https://sharp.stux.music/) | No data | n/a | n/a | n/a | n/a |
+| Templates | [Artistpage](https://artistpage.stux.music/) | No data | n/a | n/a | n/a | n/a |
+| Templates | [Soonpage](https://soonpage.stux.music/) | No data | n/a | n/a | n/a | n/a |
+| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | No data | n/a | n/a | n/a | n/a |
+| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | No data | n/a | n/a | n/a | n/a |
 <!-- githup:end -->
 
 ## What's monitored
