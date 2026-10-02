@@ -22,14 +22,14 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Music | [Stux.Music](https://stux.music/) | Up | 88.88% | 88.88% | 88.88% | 969 ms |
-| Stux.Music | [Artists](https://artists.stux.music/) | Up | 91.66% | 91.66% | 91.66% | 219 ms |
-| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 88.88% | 88.88% | 88.88% | 742 ms |
-| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 88.88% | 88.88% | 88.88% | 775 ms |
-| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 229 ms |
-| Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 223 ms |
-| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 231 ms |
-| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 269 ms |
+| Stux.Music | [Stux.Music](https://stux.music/) | Up | 90.00% | 90.00% | 90.00% | 1256 ms |
+| Stux.Music | [Artists](https://artists.stux.music/) | Up | 92.50% | 92.50% | 92.50% | 215 ms |
+| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 90.00% | 90.00% | 90.00% | 800 ms |
+| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 90.00% | 90.00% | 90.00% | 789 ms |
+| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 232 ms |
+| Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 225 ms |
+| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 230 ms |
+| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 272 ms |
 <!-- githup:end -->
 
 ## What's monitored
