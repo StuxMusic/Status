@@ -22,14 +22,14 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Music | [Stux.Music](https://stux.music/) | Up | 90.00% | 91.66% | 91.66% | 1257 ms |
-| Stux.Music | [Artists](https://artists.stux.music/) | Up | 100.00% | 93.75% | 93.75% | 220 ms |
-| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 90.00% | 91.66% | 91.66% | 745 ms |
-| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 90.00% | 91.66% | 91.66% | 666 ms |
-| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 240 ms |
+| Stux.Music | [Stux.Music](https://stux.music/) | Up | 90.00% | 93.33% | 93.33% | 1092 ms |
+| Stux.Music | [Artists](https://artists.stux.music/) | Up | 100.00% | 95.00% | 95.00% | 204 ms |
+| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 90.00% | 93.33% | 93.33% | 708 ms |
+| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 90.00% | 93.33% | 93.33% | 634 ms |
+| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 226 ms |
 | Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 226 ms |
-| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 229 ms |
-| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 278 ms |
+| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 213 ms |
+| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 262 ms |
 <!-- githup:end -->
 
 ## What's monitored
