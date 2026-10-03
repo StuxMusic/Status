@@ -22,14 +22,14 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Music | [Stux.Music](https://stux.music/) | Up | 90.00% | 94.11% | 94.11% | 1030 ms |
-| Stux.Music | [Artists](https://artists.stux.music/) | Up | 100.00% | 95.58% | 95.58% | 198 ms |
-| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 90.00% | 94.11% | 94.11% | 680 ms |
-| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 90.00% | 94.11% | 94.11% | 625 ms |
-| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 216 ms |
-| Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 218 ms |
-| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 208 ms |
-| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 272 ms |
+| Stux.Music | [Stux.Music](https://stux.music/) | Up | 100.00% | 94.73% | 94.73% | 856 ms |
+| Stux.Music | [Artists](https://artists.stux.music/) | Up | 100.00% | 96.05% | 96.05% | 183 ms |
+| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 100.00% | 94.73% | 94.73% | 635 ms |
+| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 100.00% | 94.73% | 94.73% | 598 ms |
+| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 202 ms |
+| Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 206 ms |
+| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 189 ms |
+| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 262 ms |
 <!-- githup:end -->
 
 ## What's monitored
