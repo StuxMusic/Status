@@ -22,14 +22,14 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Music | [Stux.Music](https://stux.music/) | Up | 100.00% | 97.66% | 97.66% | 830 ms |
-| Stux.Music | [Artists](https://artists.stux.music/) | Up | 100.00% | 98.24% | 98.24% | 199 ms |
-| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 100.00% | 97.66% | 97.66% | 819 ms |
-| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 100.00% | 97.66% | 97.66% | 629 ms |
-| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 237 ms |
-| Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 231 ms |
-| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 216 ms |
-| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 276 ms |
+| Stux.Music | [Stux.Music](https://stux.music/) | Up | 100.00% | 97.76% | 97.76% | 930 ms |
+| Stux.Music | [Artists](https://artists.stux.music/) | Up | 100.00% | 98.32% | 98.32% | 210 ms |
+| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 100.00% | 97.76% | 97.76% | 934 ms |
+| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 100.00% | 97.76% | 97.76% | 677 ms |
+| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 252 ms |
+| Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 250 ms |
+| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 232 ms |
+| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 281 ms |
 <!-- githup:end -->
 
 ## What's monitored
