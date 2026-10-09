@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stux.music/logo.png" height="100" alt="Stux.Music Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.music/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.music/logo-dark.png"><img src="https://global.media.stux.music/logo-dark.png" height="100" alt="Stux.Music Logo"></picture>
 </p>
 
 # Status
@@ -93,4 +93,4 @@ redistribution, see [LICENSE](LICENSE).
 
 *Powering the Stux.Group Ecosystem | Part of the Stux.Group Brand of Companies.*
 
-*Built & Maintained by <img src="https://global.media.stux.music/icon.png" height="14" alt="Stux.Music" valign="middle"> [Stux.Music](https://github.com/StuxMusic), powered by [GitHup](https://githup.stux.group).*
+*Built & Maintained by <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.music/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.music/icon-dark.png"><img src="https://global.media.stux.music/icon-dark.png" height="14" alt="Stux.Music" valign="middle"></picture> [Stux.Music](https://github.com/StuxMusic), powered by [GitHup](https://githup.stux.group).*

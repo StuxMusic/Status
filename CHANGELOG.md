@@ -3,6 +3,12 @@
 All notable changes to Stux.Music's status page (status.stux.music) are documented here. It
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.0.3
+
+### Changed
+
+- The logos and icons in the Markdown docs (README and the like) follow GitHub's light or dark theme, using each brand's `logo-light`/`logo-dark` and `icon-light`/`icon-dark` files
+
 ## v1.0.2
 
 ### Changed
