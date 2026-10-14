@@ -22,14 +22,14 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Music | [Stux.Music](https://stux.music/) | Up | 100.00% | 100.00% | 99.10% | 1085 ms |
-| Stux.Music | [Artists](https://artists.stux.music/) | Up | 100.00% | 100.00% | 99.32% | 206 ms |
-| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 100.00% | 100.00% | 99.10% | 706 ms |
-| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 100.00% | 100.00% | 99.10% | 748 ms |
-| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 222 ms |
-| Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 227 ms |
-| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 221 ms |
-| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 266 ms |
+| Stux.Music | [Stux.Music](https://stux.music/) | Up | 100.00% | 100.00% | 99.12% | 1031 ms |
+| Stux.Music | [Artists](https://artists.stux.music/) | Up | 100.00% | 100.00% | 99.34% | 214 ms |
+| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 100.00% | 100.00% | 99.12% | 654 ms |
+| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 100.00% | 100.00% | 99.12% | 677 ms |
+| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 232 ms |
+| Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 225 ms |
+| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 224 ms |
+| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 256 ms |
 <!-- githup:end -->
 
 ## What's monitored
