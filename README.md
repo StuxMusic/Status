@@ -22,14 +22,14 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Music | [Stux.Music](https://stux.music/) | Up | 100.00% | 99.66% | 99.47% | 902 ms |
-| Stux.Music | [Artists](https://artists.stux.music/) | Up | 100.00% | 100.00% | 99.68% | 227 ms |
-| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 100.00% | 99.66% | 99.47% | 712 ms |
-| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 100.00% | 100.00% | 99.57% | 629 ms |
-| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 222 ms |
-| Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 219 ms |
-| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 238 ms |
-| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 297 ms |
+| Stux.Music | [Stux.Music](https://stux.music/) | Up | 100.00% | 99.66% | 99.47% | 975 ms |
+| Stux.Music | [Artists](https://artists.stux.music/) | Up | 100.00% | 100.00% | 99.68% | 221 ms |
+| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 100.00% | 99.66% | 99.47% | 724 ms |
+| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 100.00% | 100.00% | 99.58% | 662 ms |
+| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 218 ms |
+| Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 217 ms |
+| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 237 ms |
+| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 300 ms |
 <!-- githup:end -->
 
 ## What's monitored
