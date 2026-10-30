@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1793399346,
+ "updated": 1793399651,
  "name": "Stux.Music Status",
  "status": "up",
  "monitors": [
@@ -11,32 +11,32 @@
    "url": "https://stux.music/",
    "status": "up",
    "code": 200,
-   "ms": 3899,
-   "checked_at": 1793399341,
+   "ms": 10087,
+   "checked_at": 1793399641,
    "last_change": {
     "at": 1793393711,
     "from": "down",
     "to": "up"
    },
    "uptime": {
-    "24h": 97.142,
-    "7d": 99.277,
+    "24h": 97.222,
+    "7d": 99.28,
     "30d": 99.379,
     "90d": 99.379,
     "all": 99.379
    },
    "avg_ms": {
-    "24h": 3725,
-    "7d": 1676,
-    "30d": 1139,
-    "90d": 1139,
-    "all": 1139
+    "24h": 3907,
+    "7d": 1707,
+    "30d": 1147,
+    "90d": 1147,
+    "all": 1147
    },
    "totals": {
-    "checks": 1128,
-    "available": 1121,
-    "ms_sum": 1276419,
-    "ms_n": 1121,
+    "checks": 1129,
+    "available": 1122,
+    "ms_sum": 1286506,
+    "ms_n": 1122,
     "first": 1790864623
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://artists.stux.music/",
    "status": "up",
    "code": 200,
-   "ms": 194,
-   "checked_at": 1793399341,
+   "ms": 54,
+   "checked_at": 1793399641,
    "last_change": {
     "at": 1790865523,
     "from": "down",
@@ -62,17 +62,17 @@
     "all": 99.734
    },
    "avg_ms": {
-    "24h": 172,
+    "24h": 168,
     "7d": 187,
     "30d": 208,
     "90d": 208,
     "all": 208
    },
    "totals": {
-    "checks": 1128,
-    "available": 1125,
-    "ms_sum": 233717,
-    "ms_n": 1125,
+    "checks": 1129,
+    "available": 1126,
+    "ms_sum": 233771,
+    "ms_n": 1126,
     "first": 1790864623
    },
    "incident": null
@@ -83,32 +83,32 @@
    "url": "https://stuxsharp.com/",
    "status": "up",
    "code": 200,
-   "ms": 403,
-   "checked_at": 1793399341,
+   "ms": 689,
+   "checked_at": 1793399641,
    "last_change": {
     "at": 1793364363,
     "from": "down",
     "to": "up"
    },
    "uptime": {
-    "24h": 97.142,
-    "7d": 98.916,
-    "30d": 99.29,
-    "90d": 99.29,
-    "all": 99.29
+    "24h": 97.222,
+    "7d": 98.92,
+    "30d": 99.291,
+    "90d": 99.291,
+    "all": 99.291
    },
    "avg_ms": {
-    "24h": 711,
+    "24h": 710,
     "7d": 944,
     "30d": 781,
     "90d": 781,
     "all": 781
    },
    "totals": {
-    "checks": 1128,
-    "available": 1120,
-    "ms_sum": 875083,
-    "ms_n": 1120,
+    "checks": 1129,
+    "available": 1121,
+    "ms_sum": 875772,
+    "ms_n": 1121,
     "first": 1790864623
    },
    "incident": null
@@ -119,8 +119,8 @@
    "url": "https://sharp.stux.music/human-enlightenment",
    "status": "up",
    "code": 200,
-   "ms": 4613,
-   "checked_at": 1793399341,
+   "ms": 8382,
+   "checked_at": 1793399641,
    "last_change": {
     "at": 1790930409,
     "from": "down",
@@ -134,17 +134,17 @@
     "all": 99.645
    },
    "avg_ms": {
-    "24h": 2825,
-    "7d": 1063,
-    "30d": 796,
-    "90d": 796,
-    "all": 796
+    "24h": 2979,
+    "7d": 1089,
+    "30d": 803,
+    "90d": 803,
+    "all": 803
    },
    "totals": {
-    "checks": 1128,
-    "available": 1124,
-    "ms_sum": 894784,
-    "ms_n": 1124,
+    "checks": 1129,
+    "available": 1125,
+    "ms_sum": 903166,
+    "ms_n": 1125,
     "first": 1790864623
    },
    "incident": null
@@ -155,8 +155,8 @@
    "url": "https://artistpage.stux.music/",
    "status": "up",
    "code": 200,
-   "ms": 44,
-   "checked_at": 1793399341,
+   "ms": 215,
+   "checked_at": 1793399641,
    "last_change": {
     "at": 1790864623,
     "from": null,
@@ -170,17 +170,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 161,
+    "24h": 162,
     "7d": 185,
     "30d": 219,
     "90d": 219,
     "all": 219
    },
    "totals": {
-    "checks": 1128,
-    "available": 1128,
-    "ms_sum": 246892,
-    "ms_n": 1128,
+    "checks": 1129,
+    "available": 1129,
+    "ms_sum": 247107,
+    "ms_n": 1129,
     "first": 1790864623
    },
    "incident": null
@@ -191,8 +191,8 @@
    "url": "https://soonpage.stux.music/",
    "status": "up",
    "code": 200,
-   "ms": 71,
-   "checked_at": 1793399341,
+   "ms": 63,
+   "checked_at": 1793399641,
    "last_change": {
     "at": 1790864623,
     "from": null,
@@ -206,17 +206,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 175,
-    "7d": 191,
+    "24h": 172,
+    "7d": 190,
     "30d": 220,
     "90d": 220,
     "all": 220
    },
    "totals": {
-    "checks": 1128,
-    "available": 1128,
-    "ms_sum": 248499,
-    "ms_n": 1128,
+    "checks": 1129,
+    "available": 1129,
+    "ms_sum": 248562,
+    "ms_n": 1129,
     "first": 1790864623
    },
    "incident": null
@@ -227,8 +227,8 @@
    "url": "https://maintenancepage.stux.music/",
    "status": "up",
    "code": 200,
-   "ms": 73,
-   "checked_at": 1793399341,
+   "ms": 118,
+   "checked_at": 1793399641,
    "last_change": {
     "at": 1790864623,
     "from": null,
@@ -242,17 +242,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 169,
-    "7d": 202,
+    "24h": 167,
+    "7d": 201,
     "30d": 217,
     "90d": 217,
     "all": 217
    },
    "totals": {
-    "checks": 1128,
-    "available": 1128,
-    "ms_sum": 244805,
-    "ms_n": 1128,
+    "checks": 1129,
+    "available": 1129,
+    "ms_sum": 244923,
+    "ms_n": 1129,
     "first": 1790864623
    },
    "incident": null
@@ -263,8 +263,8 @@
    "url": "https://global.media.stux.music/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 52,
-   "checked_at": 1793399341,
+   "ms": 98,
+   "checked_at": 1793399641,
    "last_change": {
     "at": 1790864623,
     "from": null,
@@ -278,17 +278,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 249,
-    "7d": 263,
+    "24h": 245,
+    "7d": 262,
     "30d": 300,
     "90d": 300,
     "all": 300
    },
    "totals": {
-    "checks": 1128,
-    "available": 1128,
-    "ms_sum": 338652,
-    "ms_n": 1128,
+    "checks": 1129,
+    "available": 1129,
+    "ms_sum": 338750,
+    "ms_n": 1129,
     "first": 1790864623
    },
    "incident": null
