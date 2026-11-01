@@ -22,14 +22,14 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Music | [Stux.Music](https://stux.music/) | **Down** | 75.60% | 94.16% | 98.60% | 9484 ms |
-| Stux.Music | [Artists](https://artists.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 179 ms |
-| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 95.12% | 98.05% | 99.47% | 7173 ms |
-| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 100.00% | 100.00% | 100.00% | 7884 ms |
-| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 235 ms |
-| Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 163 ms |
-| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 201 ms |
-| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 275 ms |
+| Stux.Music | [Stux.Music](https://stux.music/) | **Down** | 80.00% | 93.67% | 98.51% | 9518 ms |
+| Stux.Music | [Artists](https://artists.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 185 ms |
+| Artists | [Stux Sharp](https://stuxsharp.com/) | **Down** | 92.50% | 97.62% | 99.38% | 7144 ms |
+| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 100.00% | 100.00% | 100.00% | 7940 ms |
+| Templates | [Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 247 ms |
+| Templates | [Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 165 ms |
+| Templates | [Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 205 ms |
+| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 272 ms |
 <!-- githup:end -->
 
 ## What's monitored
