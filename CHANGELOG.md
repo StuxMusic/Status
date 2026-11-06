@@ -4,6 +4,18 @@ All notable changes to Stux.Music Status (status.stux.music) are documented here
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.06-2
+
+### Added
+
+- A `test` branch: work happens there (or on a branch off it), and changes reach `main` only through a pull request from `test`, reviewed and merged by Leo. CONTRIBUTING has a new Branches section, and the README's Versioning section says so
+- A CI workflow (`.github/workflows/ci.yml`) running `tests/version.sh` on pushes to `main` and `test` and on pull requests, so a pull request into `main` has a check to pass
+- Monitors for Stux Sharp Media CDN (sharp.media.stux.music, which serves Stux Sharp's covers and logos) and the Stux.Music GitHub Pages Redirect (stuxmusic.github.io), so every live Stux.Music site is checked
+
+### Changed
+
+- `commit.sh` and `commit.bat` say to push `test` with its tags and open a pull request into `main`, instead of pushing `main`
+
 ## v26.11.06-1
 
 ### Changed
