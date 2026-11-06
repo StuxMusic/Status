@@ -2,9 +2,9 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.music/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.music/logo-dark.png"><img src="https://global.media.stux.music/logo-dark.png" height="80" alt="Stux.Music Logo"></picture>
 </p>
 
-# Contributing to Status
+# Contributing to Stux.Music Status
 
-Status is Stux.Music's status page, [status.stux.music](https://status.stux.music), built with
+Stux.Music Status is Stux.Music's status page, [status.stux.music](https://status.stux.music), built with
 [GitHup](https://githup.stux.group). To report an outage, open an Issue. Bugs or ideas for the
 status page software belong in [StuxGroup/GitHup](https://github.com/StuxGroup/GitHup/issues).
 
@@ -19,7 +19,9 @@ You need Python 3.11+ and nothing else.
 ## Project conventions
 
 - **Monitors live in `.githup.yml`.** Its syntax is documented in the
-  [GitHup docs](https://githup.stux.group/docs/). Only add sites Stux.Music runs.
+  [GitHup docs](https://githup.stux.group/docs/). Only add sites Stux.Music runs, and give each monitor its
+  full name ("Stux.Music Artists", not "Artists"). When renaming a monitor, pin its old `slug:` so its history in `data/`
+  and its incident label carry on.
 - **The status page itself is GitHup's**, including the legal pages and 404. Change how it
   looks or works in GitHup, not here.
 - **Brand.** The Stux.Music accent is `#4752FF`, set as `site.accent`.
