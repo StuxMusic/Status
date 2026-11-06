@@ -36,8 +36,8 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times, 5 minutes apart, to fill the gap), GitHup checks each monitor in [`.githup.yml`](.githup.yml):
 
-- **Stux.Music:** the Stux.Music website and Stux.Music Artists, the artist directory
-- **Artists:** Stux Sharp's website and the sharp.stux.music smart-link portal
+- **Stux.Music:** the Stux.Music website, Stux.Music Artists (the artist directory) and the stuxmusic.github.io redirect
+- **Artists:** Stux Sharp's website, the sharp.stux.music smart-link portal and Stux Sharp's media CDN
 - **Templates:** Stux.Music Artistpage, Stux.Music Soonpage and Stux.Music Maintenancepage
 - **Shared:** the Stux.Music media CDN
 
@@ -87,6 +87,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Versioning
 
 This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
+
+Work happens on the `test` branch: releases are committed and tagged there, and go live when Leo merges its pull request into `main`. See [CONTRIBUTING.md](CONTRIBUTING.md#branches).
 
 ## License
 

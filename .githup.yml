@@ -40,6 +40,9 @@ groups:
         slug: artists
         url: https://artists.stux.music/
         description: The directory of Stux.Music artists
+      - name: Stux.Music GitHub Pages Redirect
+        url: https://stuxmusic.github.io/
+        description: Sends the org's default GitHub Pages address to github.com/StuxMusic
 
   - name: Artists
     description: Sites for Stux.Music's artists.
@@ -51,6 +54,9 @@ groups:
       - name: Sharp.Stux.Music
         url: https://sharp.stux.music/human-enlightenment
         description: The smart-link portal for Stux Sharp releases
+      - name: Stux Sharp Media CDN
+        url: https://sharp.media.stux.music/icon.png
+        description: Stux Sharp's logos and cover art, used by both of Stux Sharp's sites
 
   - name: Templates
     description: The holding pages shown while a Stux.Music site or artist page isn't ready.
