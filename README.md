@@ -1,8 +1,8 @@
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.music/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.music/logo-dark.png"><img src="https://global.media.stux.music/logo-dark.png" height="100" alt="Stux.Music Logo"></picture>
+  <img src="https://artists.stux.music/assets/img/artists/stux-music-status.png" height="100" alt="Stux.Music Status icon">
 </p>
 
-# Status
+# Stux.Music Status
 
 ### *Live status of Stux.Music's music sites and services, powered by [GitHup](https://githup.stux.group).*
 
@@ -36,9 +36,9 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times, 5 minutes apart, to fill the gap), GitHup checks each monitor in [`.githup.yml`](.githup.yml):
 
-- **Stux.Music:** the Stux.Music website and the artist directory
+- **Stux.Music:** the Stux.Music website and Stux.Music Artists, the artist directory
 - **Artists:** Stux Sharp's website and the sharp.stux.music smart-link portal
-- **Templates:** Artistpage, Soonpage and Maintenancepage
+- **Templates:** Stux.Music Artistpage, Stux.Music Soonpage and Stux.Music Maintenancepage
 - **Shared:** the Stux.Music media CDN
 
 To add a site, add a monitor to the right group there (or a new group). A group can also hold `links:` instead of monitors, for sites that should be listed but not checked.

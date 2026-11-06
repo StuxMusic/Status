@@ -4,8 +4,9 @@
 site:
   name: Stux.Music Status
   description: Live status of Stux.Music's music sites and services, checked every 5 minutes.
-  logo: https://global.media.stux.music/logo.png
-  favicon: https://global.media.stux.music/icon.png
+  # Its own badge icon (the Stux.Music mark with a heartbeat badge), as on artists.stux.music.
+  logo: https://artists.stux.music/assets/img/artists/stux-music-status.png
+  favicon: https://artists.stux.music/assets/img/artists/stux-music-status.png
   accent: "#4752FF"
   url: https://status.stux.music/
   footer_links:
@@ -34,7 +35,9 @@ groups:
     monitors:
       - name: Stux.Music
         url: https://stux.music/
-      - name: Artists
+      # Full names; the slugs are pinned so each monitor keeps its history from before the rename.
+      - name: Stux.Music Artists
+        slug: artists
         url: https://artists.stux.music/
         description: The directory of Stux.Music artists
 
@@ -52,11 +55,14 @@ groups:
   - name: Templates
     description: The holding pages shown while a Stux.Music site or artist page isn't ready.
     monitors:
-      - name: Artistpage
+      - name: Stux.Music Artistpage
+        slug: artistpage
         url: https://artistpage.stux.music/
-      - name: Soonpage
+      - name: Stux.Music Soonpage
+        slug: soonpage
         url: https://soonpage.stux.music/
-      - name: Maintenancepage
+      - name: Stux.Music Maintenancepage
+        slug: maintenancepage
         url: https://maintenancepage.stux.music/
 
   - name: Shared
