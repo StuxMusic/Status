@@ -1,9 +1,19 @@
 # Changelog
 
-All notable changes to Stux.Music's status page (status.stux.music) are documented here. It
-follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+All notable changes to Stux.Music Status (status.stux.music) are documented here.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
+
+## v26.11.06-1
+
+### Changed
+
+- `CONTRIBUTING.md` is titled Stux.Music Status, and asks for full monitor names and a pinned `slug:` when renaming one
+
+### Fixed
+
+- The CHANGELOG intro said this project follows Semantic Versioning, then that it uses Date Versioning; it now says only
+  the latter (with earlier releases on Semantic Versioning)
 
 ## v26.11.06
 
