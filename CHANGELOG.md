@@ -4,6 +4,12 @@ All notable changes to Stux.Music Status (status.stux.music) are documented here
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.07
+
+### Changed
+
+- The copyright holder is Stux.Music rather than Stux.Group, in `LICENSE` and `README.md`
+
 ## v26.11.06-2
 
 ### Added
