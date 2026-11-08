@@ -4,6 +4,13 @@ All notable changes to Stux.Music Status (status.stux.music) are documented here
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.08-1
+
+### Changed
+
+- The `.githup.yml` header comment says the workflow asks GitHub for a check every 5 minutes on a best-effort basis,
+  matching the wording agreed for every GitHup status page
+
 ## v26.11.08
 
 ### Changed
