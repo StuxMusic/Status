@@ -36,7 +36,7 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 ## What's monitored
 
-Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times, 5 minutes apart, to fill the gap), GitHup checks each monitor in [`.githup.yml`](.githup.yml):
+Regularly, GitHup checks each monitor in [`.githup.yml`](.githup.yml):
 
 - **Stux.Music:** the Stux.Music website, Stux.Music Artists (the artist directory) and the stuxmusic.github.io redirect
 - **Artists:** Stux Sharp's website, the sharp.stux.music smart-link portal and Stux Sharp's media CDN
@@ -52,7 +52,9 @@ To announce planned maintenance, open an Issue yourself with the `githup` and `i
 
 ## How it works
 
-- **`.github/workflows/status.yml`** runs a GitHup `check` every 5 minutes (with `fill-gaps`, up to 4 checks when the schedule is late) and commits the
+- **`.github/workflows/status.yml`** asks GitHub to run a GitHup `check` every 5 minutes, which GitHub treats as best-effort and often runs
+  less often (with `fill-gaps`, a late run checks up to 4 times to fill the gap; the page's "Updated" line shows the
+  measured rhythm). It commits the
   results to `data/` as `github-actions[bot]`. When a status changes, hourly, and on pushes, it
   builds the GitHup status page into `_site` (with `site-dir`), and deploys it with `actions/deploy-pages`.
 - **`legal:` in `.githup.yml`** makes GitHup generate the **Boring Legal Stuff** hub at `/legal/`

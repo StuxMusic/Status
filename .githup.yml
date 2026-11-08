@@ -1,9 +1,10 @@
 # Stux.Music Status: https://status.stux.music
-# Checked every 5 minutes by .github/workflows/status.yml, using GitHup:
+# Asks GitHub for a check every 5 minutes (best-effort; GitHub often runs it less often) - .github/workflows/status.yml.
+# Built with GitHup:
 # https://github.com/StuxGroup/GitHup
 site:
   name: Stux.Music Status
-  description: Live status of Stux.Music's music sites and services, checked every 5 minutes.
+  description: Live status of Stux.Music's music sites and services, checked regularly.
   # Its own badge icon (the Stux.Music mark with a heartbeat badge), as on artists.stux.music.
   logo: https://artists.stux.music/assets/img/artists/stux-music-status.png
   favicon: https://artists.stux.music/assets/img/artists/stux-music-status.png
