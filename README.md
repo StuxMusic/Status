@@ -22,16 +22,16 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Music | [Stux.Music](https://stux.music/) | Up | 100.00% | 98.13% | 97.83% | 606 ms |
-| Stux.Music | [Stux.Music Artists](https://artists.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 155 ms |
-| Stux.Music | [Stux.Music GitHub Pages Redirect](https://stuxmusic.github.io/) | Up | 100.00% | 100.00% | 100.00% | 120 ms |
-| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 100.00% | 100.00% | 99.27% | 546 ms |
-| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 100.00% | 100.00% | 100.00% | 628 ms |
-| Artists | [Stux Sharp Media CDN](https://sharp.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 260 ms |
-| Templates | [Stux.Music Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 166 ms |
-| Templates | [Stux.Music Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 173 ms |
-| Templates | [Stux.Music Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 159 ms |
-| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 203 ms |
+| Stux.Music | [Stux.Music](https://stux.music/) | Up | 100.00% | 98.58% | 97.82% | 640 ms |
+| Stux.Music | [Stux.Music Artists](https://artists.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 184 ms |
+| Stux.Music | [Stux.Music GitHub Pages Redirect](https://stuxmusic.github.io/) | Up | 100.00% | 100.00% | 100.00% | 150 ms |
+| Artists | [Stux Sharp](https://stuxsharp.com/) | Up | 100.00% | 100.00% | 99.27% | 601 ms |
+| Artists | [Sharp.Stux.Music](https://sharp.stux.music/human-enlightenment) | Up | 100.00% | 100.00% | 100.00% | 782 ms |
+| Artists | [Stux Sharp Media CDN](https://sharp.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 293 ms |
+| Templates | [Stux.Music Artistpage](https://artistpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 192 ms |
+| Templates | [Stux.Music Soonpage](https://soonpage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 203 ms |
+| Templates | [Stux.Music Maintenancepage](https://maintenancepage.stux.music/) | Up | 100.00% | 100.00% | 100.00% | 158 ms |
+| Shared | [Stux.Music Media CDN](https://global.media.stux.music/icon.png) | Up | 100.00% | 100.00% | 100.00% | 246 ms |
 <!-- githup:end -->
 
 ## What's monitored
