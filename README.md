@@ -36,7 +36,7 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 ## What's monitored
 
-Regularly, GitHup checks each monitor in [`.githup.yml`](.githup.yml):
+GitHup checks each monitor in [`.githup.yml`](.githup.yml) regularly. The workflow asks GitHub for a run every 5 minutes, but GitHub runs schedules best-effort and often less often (when a run is late it checks up to 4 times, 5 minutes apart, to fill the gap); the status page shows the real check rhythm over the last 24 hours:
 
 - **Stux.Music:** the Stux.Music website, Stux.Music Artists (the artist directory) and the stuxmusic.github.io redirect
 - **Artists:** Stux Sharp's website, the sharp.stux.music smart-link portal and Stux Sharp's media CDN
