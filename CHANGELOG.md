@@ -4,6 +4,19 @@ All notable changes to Stux.Music Status (status.stux.music) are documented here
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.13-1
+
+### Fixed
+
+- The registered office ends in "United Kingdom": 124 City Road, London, EC1V 2NX, England, United Kingdom
+
+## v26.11.13
+
+### Changed
+
+- Stux Group Ltd's registered office is now 124 City Road, London, EC1V 2NX, England (it was 82a James Carter Road, Mildenhall), in
+  `.githup.yml`'s `legal.company` line, shown on the status page's imprint. The company number and "registered in England and Wales" are unchanged
+
 ## v26.11.08-1
 
 ### Changed
