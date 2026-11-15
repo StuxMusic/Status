@@ -1,8 +1,10 @@
 #!/bin/bash
 # Stux.Music Status - Local dev server
-# Usage: ./dev-server.sh [--no-dev-mode] [port]
+# Usage: ./dev-server.sh [--no-dev-mode] [--lan] [port]
 #   port            default: 8000
 #   --no-dev-mode   render the status page exactly as production would
+#   --lan           listen on all interfaces so phones/tablets on your network can
+#                   connect (prints the addresses to open); default is 127.0.0.1 only
 #
 # Generates 90 days of example data for the monitors in .githup.yml, builds
 # the GitHup status page into .dev/public, with its legal pages, 404 and sitemap,
@@ -16,15 +18,33 @@ set -e
 
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PORT=8000
+HOST=127.0.0.1
+LAN=0
 export DEV_MODE=1
 
 for arg in "$@"; do
     case "$arg" in
         --no-dev-mode) export DEV_MODE=0 ;;
-        ''|*[!0-9]*) echo "Usage: $0 [--no-dev-mode] [port]" >&2; exit 1 ;;
+        --lan) LAN=1; HOST=0.0.0.0 ;;
+        ''|*[!0-9]*) echo "Usage: $0 [--no-dev-mode] [--lan] [port]" >&2; exit 1 ;;
         *) PORT="$arg" ;;
     esac
 done
+
+# This machine's IPv4 addresses (Windows, macOS or Linux), minus loopback.
+lan_addrs() {
+    case "$OSTYPE" in
+        msys*|cygwin*|win32*) ipconfig | awk -F': *' '/IPv4/{print $2}' | tr -d '\r' ;;
+        darwin*) ifconfig | awk '/inet /{print $2}' ;;
+        *) hostname -I 2>/dev/null | tr ' ' '\n' ;;
+    esac | grep -v -e '^127\.' -e '^$' || true
+}
+
+print_lan_urls() {
+    echo "On your local network (--lan), open one of these on the other device:"
+    for a in $(lan_addrs); do echo "    http://$a:$1"; done
+    echo "  (usually the 192.168.x.x one; allow Python through the firewall if asked)"
+}
 
 PY="$(command -v python3 || command -v python)"
 cd "$DIR"
@@ -52,4 +72,5 @@ if [ "$DEV_MODE" = "1" ]; then
 else
     echo "Stux.Music Status (production rendering) at http://127.0.0.1:$PORT/"
 fi
-"$PY" -m http.server "$PORT" --bind 127.0.0.1 --directory .dev/public
+[ "$LAN" = "1" ] && print_lan_urls "$PORT"
+"$PY" -m http.server "$PORT" --bind "$HOST" --directory .dev/public
