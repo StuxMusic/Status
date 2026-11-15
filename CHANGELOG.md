@@ -4,6 +4,26 @@ All notable changes to Stux.Music Status (status.stux.music) are documented here
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.15
+
+### Added
+
+- `--lan` for `dev-server.sh` / `dev-server.bat`: the dev server listens on all interfaces instead of 127.0.0.1 only, so phones and tablets on the local network can open it, and prints the addresses to open (usually the 192.168.x.x one). Without it, nothing changes
+- A `staging` branch between `test` and `main`: work and releases happen on `test`, `staging` changes only through a pull request from `test`, and `main` (live) only through one from `staging`. CONTRIBUTING's Branches section is now "Branches and going live", and the README's Versioning section says so
+
+### Changed
+
+- `commit.sh` and `commit.bat` refuse to run on `staging` or `main`, and print the push command and both `gh pr create` commands (into `staging`, then into `main`)
+- CI runs on pushes to `staging` too
+
+## v26.11.13-2
+
+### Changed
+
+- The README's "What's monitored" intro and the `.githup.yml` header comment use the same wording as the other Stux
+  brands' status pages: checked regularly, with the workflow asking GitHub for a run every 5 minutes on a best-effort
+  basis, and the page showing the real check rhythm over the last 24 hours
+
 ## v26.11.13-1
 
 ### Fixed
